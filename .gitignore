@@ -1,0 +1,19 @@
+# deps
+node_modules/
+out
+client/node_modules
+
+#IDE
+.idea
+client/.idea
+
+
+# build
+client/dist
+dist
+
+# env
+.env
+.env.*
+client/.env
+client/.env.*

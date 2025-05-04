@@ -1,0 +1,16 @@
+{
+	"name": "personal-finance-app",
+	"scripts": {
+		"dev": "bun run --hot server/index.ts",
+		"build": "bun build server/index.ts --outdir out",
+		"lint": "bunx biome lint",
+		"lint --fix": "bunx biome check --write ."
+	},
+	"dependencies": {
+		"hono": "^4.7.8"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/bun": "latest"
+	}
+}
